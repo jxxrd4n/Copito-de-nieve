@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para mi bello copito de nieve ❤️</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+}
+
+body{
+height:100vh;
+overflow:hidden;
+background:linear-gradient(to bottom,#020111,#0b1d3a,#000);
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+
+.stars{
+position:fixed;
+width:100%;
+height:100%;
+background-image:
+radial-gradient(white 1px, transparent 1px);
+background-size:40px 40px;
+opacity:.35;
+animation:move 40s linear infinite;
+}
+
+@keyframes move{
+from{transform:translateY(0);}
+to{transform:translateY(40px);}
+}
+
+.card{
+position:relative;
+z-index:2;
+padding:30px;
+max-width:380px;
+}
+
+h1{
+font-size:2.2rem;
+margin-bottom:15px;
+}
+
+p{
+font-size:1.1rem;
+line-height:1.7;
+margin:10px 0;
+}
+
+button{
+margin-top:30px;
+padding:15px 30px;
+border:none;
+border-radius:40px;
+font-size:18px;
+background:white;
+color:#111;
+cursor:pointer;
+transition:.3s;
+}
+
+button:hover{
+transform:scale(1.05);
+}
+
+.heart{
+font-size:55px;
+animation:beat 1.2s infinite;
+margin:20px 0;
+}
+
+@keyframes beat{
+0%{transform:scale(1);}
+50%{transform:scale(1.2);}
+100%{transform:scale(1);}
+}
+</style>
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<div class="card">
+
+<h1>Para mi bello copito de nieve ❄️❤️</h1>
+
+<div class="heart">❤️</div>
+
+<p><b>Feliz 9 meses</b></p>
+
+<p>9 de octubre de 2025</p>
+
+<p>Gracias por llegar a mi vida y hacerla mucho más bonita.</p>
+
+<button onclick="mensaje()">
+Comenzar nuestra historia ✨
+</button>
+
+</div>
+
+<script>
+
+function mensaje(){
+
+alert("Bienvenida, mi bello copito de nieve ❤️\\n\\nEste regalo fue hecho con todo mi corazón.\\n\\nNuestra historia apenas comienza...");
+
+}
+
+</script>
+
+</body>
+</html>
