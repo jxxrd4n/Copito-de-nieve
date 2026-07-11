@@ -11,6 +11,7 @@ scroll-behavior:smooth;
 body{
 font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
 background:linear-gradient(180deg,#14001f,#2b0a3d,#0b1020);
+background-attachment: fixed;
 color:white;
 overflow-x:hidden;
 }
@@ -49,6 +50,7 @@ font-size:2.5rem;
 margin-bottom:20px;
 animation:fade 2s;
 text-shadow:0 0 20px rgba(255,120,220,.8);
+letter-spacing:1px;
 }
 
 .subtitle{
