@@ -184,3 +184,9 @@ snow.remove();
 }
 
 setInterval(createSnow,500);
+
+setTimeout(()=>{
+
+alert("💖 Espero que esta pequeña página te recuerde lo mucho que te amo. 💖");
+
+},1200);
