@@ -187,6 +187,6 @@ setInterval(createSnow,500);
 
 setTimeout(()=>{
 
-alert("💖 Espero que esta pequeña página te recuerde lo mucho que te amo. 💖");
+alert("💖 Espero que esta pequeña página llegue a demostrar el maravilloso amor que te tengo mi reina 💖");
 
 },1200);
