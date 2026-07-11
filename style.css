@@ -102,6 +102,16 @@ padding:25px;
 margin-bottom:25px;
 box-shadow:0 10px 30px rgba(0,0,0,.35);
 animation:fadeUp .8s;
+border:1px solid rgba(255,255,255,.15);
+transition:.35s;
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 20px 40px rgba(255,105,180,.25);
+
 }
 
 .card h2{
@@ -228,11 +238,15 @@ box-shadow:0 15px 35px rgba(0,0,0,.4);
 }
 
 .nav{
-width:50px;
-height:50px;
+width:55px;
+height:55px;
 border-radius:50%;
+background:linear-gradient(135deg,#ff8bd6,#9b5cff);
+color:white;
 font-size:22px;
-padding:0;
+font-weight:bold;
+border:none;
+box-shadow:0 10px 20px rgba(155,92,255,.35);
 }
 
 #photoNumber{
