@@ -67,6 +67,61 @@ heart.remove();
 
 setInterval(createHeart,700);
 
+const photos = [
+"IMG_9016.jpeg",
+"IMG_4102.jpeg",
+"IMG_4083.jpeg",
+"IMG_4064.jpeg",
+"IMG_4025.jpeg",
+"IMG_3689.jpeg",
+"IMG_3532.jpeg",
+"IMG_3026.jpeg",
+"IMG_2500.jpeg",
+"IMG_2496.jpeg",
+"IMG_0641.jpeg",
+"IMG_0635.jpeg",
+"IMG_0616.jpeg",
+"IMG_0334.png",
+"IMG_0171.jpeg"
+];
+
+const phrases = [
+"Cada momento contigo se convirtió en un recuerdo inolvidable. ❤️",
+"Tu sonrisa siempre ilumina mis días. ✨",
+"Gracias por estar a mi lado. 💖",
+"Cada salida contigo es una aventura que nunca quiero olvidar. 🌎",
+"Aquel día quedó guardado para siempre en mi corazón. 💕",
+"Contigo cualquier lugar se siente como hogar. 🏡",
+"Eres mi lugar favorito. ❤️",
+"Gracias por tantas sonrisas. 😊",
+"Cada foto cuenta una pequeña parte de nuestra historia. 📸",
+"Siempre consigues alegrar mis días. 🌸",
+"Adoro cada instante que pasamos juntos. 💞",
+"Quiero seguir creando recuerdos contigo. ✨",
+"Tu amor ha cambiado mi vida para mejor. ❤️",
+"Mi bello copito de nieve, gracias por existir. ❄️",
+"Y esto... es solo el comienzo de nuestra historia. 💖"
+];
+
+let current = 0;
+
+function showPhoto() {
+    document.getElementById("photo").src = photos[current];
+    document.getElementById("photoText").textContent = phrases[current];
+}
+
+function nextPhoto() {
+    current = (current + 1) % photos.length;
+    showPhoto();
+}
+
+function previousPhoto() {
+    current = (current - 1 + photos.length) % photos.length;
+    showPhoto();
+}
+
+showPhoto();
+
 const title = document.querySelector("h1");
 const originalText = title.innerHTML;
 
