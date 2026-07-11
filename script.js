@@ -42,3 +42,27 @@ function updateCounter() {
 
     counter.textContent = text + " juntos ❤️";
 }
+
+function createHeart(){
+
+const heart=document.createElement("div");
+
+heart.className="heart";
+
+heart.innerHTML=Math.random()>0.5?"💖":"🤍";
+
+heart.style.left=Math.random()*100+"vw";
+
+heart.style.animationDuration=(6+Math.random()*5)+"s";
+
+heart.style.fontSize=(18+Math.random()*20)+"px";
+
+document.getElementById("hearts").appendChild(heart);
+
+setTimeout(()=>{
+heart.remove();
+},11000);
+
+}
+
+setInterval(createHeart,700);
