@@ -160,3 +160,27 @@ function typeWriter(){
 }
 
 window.onload = typeWriter;
+
+function createSnow(){
+
+const snow=document.createElement("div");
+
+snow.className="snowflake";
+
+snow.innerHTML="❄️";
+
+snow.style.left=Math.random()*100+"vw";
+
+snow.style.fontSize=(12+Math.random()*18)+"px";
+
+snow.style.animationDuration=(6+Math.random()*6)+"s";
+
+document.getElementById("snow").appendChild(snow);
+
+setTimeout(()=>{
+snow.remove();
+},12000);
+
+}
+
+setInterval(createSnow,500);
