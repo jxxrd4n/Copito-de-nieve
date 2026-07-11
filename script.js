@@ -86,14 +86,14 @@ const photos = [
 ];
 
 const phrases = [
-"Cada momento contigo se convirtió en un recuerdo inolvidable. ❤️",
-"Tu sonrisa siempre ilumina mis días. ✨",
+"Cada momento contigo se convirtió en un recuerdo inolvidable y uno de los mas hermoso porque siempre me ponen feliz 🥺💗",
+"El echo de poder quererte, amarte y adorarte se volvieron cosas hermosas que hago por ti 🥰✨",
 "Gracias por estar a mi lado. 💖",
 "Cada salida contigo es una aventura que nunca quiero olvidar. 🌎",
 "Aquel día quedó guardado para siempre en mi corazón. 💕",
 "Contigo cualquier lugar se siente como hogar. 🏡",
-"Eres mi lugar favorito. ❤️",
-"Gracias por tantas sonrisas. 😊",
+"Eres mi lugar favorito y la razon mas hermosa de amar 💘🫂",
+"Si de ser hermosa se tratara creeme que mujer mas preciosa que usted mi amor no exite 💖✨",
 "Cada foto cuenta una pequeña parte de nuestra historia. 📸",
 "Siempre consigues alegrar mis días. 🌸",
 "Adoro cada instante que pasamos juntos. 💞",
