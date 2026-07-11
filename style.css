@@ -145,3 +145,28 @@ opacity:1;
 transform:translateY(0);
 }
 }
+.musicButton{
+
+display:inline-block;
+margin-top:20px;
+padding:16px 30px;
+border-radius:999px;
+text-decoration:none;
+font-weight:bold;
+font-size:18px;
+
+background:linear-gradient(135deg,#ff7fd1,#9b5cff);
+
+color:white;
+
+box-shadow:0 10px 25px rgba(155,92,255,.4);
+
+transition:.3s;
+
+}
+
+.musicButton:hover{
+
+transform:scale(1.05);
+
+}
