@@ -66,3 +66,26 @@ heart.remove();
 }
 
 setInterval(createHeart,700);
+
+const title = document.querySelector("h1");
+const originalText = title.innerHTML;
+
+title.innerHTML = "";
+
+let i = 0;
+
+function typeWriter(){
+
+    if(i < originalText.length){
+
+        title.innerHTML += originalText.charAt(i);
+
+        i++;
+
+        setTimeout(typeWriter,70);
+
+    }
+
+}
+
+window.onload = typeWriter;
