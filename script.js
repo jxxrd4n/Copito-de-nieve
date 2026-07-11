@@ -106,8 +106,24 @@ const phrases = [
 let current = 0;
 
 function showPhoto() {
-    document.getElementById("photo").src = photos[current];
-    document.getElementById("photoText").textContent = phrases[current];
+
+const img = document.getElementById("photo");
+
+img.classList.add("change");
+
+setTimeout(()=>{
+
+img.src = photos[current];
+
+document.getElementById("photoText").textContent = phrases[current];
+
+document.getElementById("photoNumber").textContent =
+(current + 1) + " de " + photos.length + " ❤️";
+
+img.classList.remove("change");
+
+},200);
+
 }
 
 function nextPhoto() {
